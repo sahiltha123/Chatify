@@ -1,0 +1,11 @@
+class AIMessage {
+  final String text;
+  final bool isUser;
+  final DateTime timeStamp;
+
+  AIMessage({
+    required this.text,
+    required this.isUser,
+    required this.timeStamp,
+  });
+}
