@@ -34,15 +34,12 @@
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="screenshots/home.jpg" width="220" alt="Home Screen"/>
-  <img src="screenshots/chat.jpg" width="220" alt="Chat Screen"/>
-  <img src="screenshots/ai_chat.jpg" width="220" alt="AI Assistant"/>
-  <img src="screenshots/profile.jpg" width="220" alt="Profile"/>
-  <img src="screenshots/profile_extended.jpg" width="220" alt="Profile Extended"/>
+  <img src="screenshots/home.jpg" width="180" alt="Home"/>
+  <img src="screenshots/chat.jpg" width="180" alt="Chat"/>
+  <img src="screenshots/ai_chat.jpg" width="180" alt="AI"/>
+  <img src="screenshots/profile.jpg" width="180" alt="Profile"/>
+  <img src="screenshots/profile_extended.jpg" width="180" alt="Profile Extended"/>
 </div>
-
-> *(Add your actual screenshots in `/screenshots` folder and update paths above)*
-
 ---
 
 ## 🛠 Tech Stack
