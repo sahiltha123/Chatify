@@ -40,6 +40,7 @@
   <img src="screenshots/profile.jpg" width="180" alt="Profile"/>
   <img src="screenshots/profile_extended.jpg" width="180" alt="Profile Extended"/>
 </div>
+
 ---
 
 ## 🛠 Tech Stack
