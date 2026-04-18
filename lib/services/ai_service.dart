@@ -2,6 +2,41 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
+
+class AISrviceByMe{
+  static const String _apiKey = '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';
+
+  static const String _baseUrl = 'https://openrouter.ai/api/v1/chat/completions';
+
+  Future<String> sendMessage(String message) async{
+    try {
+      final response = await http.post(
+        Uri.parse(_baseUrl),
+        headers: {
+          'content-type': 'application/json',
+          'Authorization': 'Bearer $_apiKey',
+        },
+        body: jsonEncode({
+          'model' : 'openai/gpt-5',
+          'messages' : [
+            {
+              'role': 'user',
+              'content': message,
+            }
+          ]
+        })
+      );
+      if (response.statusCode == 200) {
+        final data = jsonDecode(response.body);
+        return data['choices'][0]['message']['content'];
+      } else {
+        throw Exception('Error: ${response.body}');
+      }
+    } catch (e) {
+      throw Exception(e.toString());
+    }
+  }
+}
 class AIService {
   static const String _apiKey =
       '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';

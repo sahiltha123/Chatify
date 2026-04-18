@@ -1,6 +1,7 @@
 import 'package:chat_app/app_theme.dart';
 import 'package:chat_app/controllers/auth_controller.dart';
 import 'package:chat_app/routes/app_routes.dart';
+import 'package:chat_app/views/auth/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
